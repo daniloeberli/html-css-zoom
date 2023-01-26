@@ -26,6 +26,7 @@ header{
     color: white;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .top-btn{
@@ -33,7 +34,6 @@ header{
     padding: 10px;
     border-radius: 5px;
     margin-right: 5px;
-    margin-top: 5px;
 }
 
 
@@ -51,7 +51,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-}
+    padding-top: 40px;
+} 
 
 .box{
     width: calc(100% /3);
@@ -71,4 +72,17 @@ Footer
 footer{
     height: 70px;
     background-color: #222222;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+footer > .voice-video,
+footer > .end{
+    width: 20%;
+}
+
+footer > .tool{
+    flex-grow: 60%;
 }
