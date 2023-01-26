@@ -1,0 +1,74 @@
+/*
+Reset
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+Common
+*/
+
+
+
+/*
+Header
+*/
+
+header{
+    height: 40px;
+    background-color: #000000;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-btn{
+    background-color: #4a4a4a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+/*
+Main
+*/
+
+main{
+    height: calc(100vh - 110px);
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.box{
+    width: calc(100% /3);
+    background-color: white;
+    border: 2px solid red;
+    height: 100px;
+}
+
+.foto{
+    width: 100%;
+}
+
+/*
+Footer
+*/
+
+footer{
+    height: 70px;
+    background-color: #222222;
+}
