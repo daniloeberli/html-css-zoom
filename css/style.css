@@ -17,6 +17,10 @@ img{
     display: block;
 }
 
+.small{
+    font-size: small;
+}
+
 /*
 Header
 */
@@ -68,7 +72,7 @@ main{
 
 .user{
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     left: 0;
     color: white;
     background-color: #66707c;
@@ -89,14 +93,30 @@ footer{
     display: flex;
     color: white;
     justify-content: space-between;
-    /*align-items: center;*/
+    
 }
 
-footer > .voice-video,
-footer > .end{
+footer > .voice-video{
     width: 20%;
+    padding: 5px;
 }
 
 footer > .tool{
     flex-grow: 60%;
+}
+
+footer i{
+    font-size: 25px;
+}
+
+footer .voice-video i{
+    margin-left: 25px;
+}
+
+.end{
+    color: red;
+    background-color: #4a4a4a;
+    text-align: center;
+    width: 120px;
+    
 }
