@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom</title>
+    <!--font awesome e google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,6 +18,7 @@
 
 <body>
     <header>
+            <!--bottoni superiori-->
         <div class="top-btn">
             <i class="fa-solid fa-grip"></i>
             Speaker view
@@ -23,6 +28,7 @@
         </div>
     </header>
     <main>
+            <!--box zoom-->
         <div class="container">
             <div class="box">
                 <img src="https://picsum.photos/250/100" alt="profile-pic">
@@ -120,17 +126,55 @@
                 <img src="https://picsum.photos/250/100" alt="profile-pic">
                 <div class="user"><i class="fa-solid fa-microphone-slash"></i>Pinco Pallo</div>
             </div>
-            
-
+                <!--/box zoom-->
         </div>
     </main>
     <footer>
+            <!--box utility-->
         <div class="voice-video">
-            <i class="fa-solid fa-microphone"><i class="fa-solid fa-angle-up small"></i></i>
-            <h3>Mute</h3>
-
+            <div class="tool-box">
+                <i class="fa-solid fa-microphone"><i class="fa-solid fa-angle-up small"></i></i>
+                <h3>Mute</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-solid fa-video"></i><i class="fa-solid fa-angle-up small"></i></i>
+                <h3>Stop video</h3>
+            </div>
         </div>
-        <div class="tool">tool</div>
+        <div class="tool">
+            <div class="tool-box">
+                <i class="fa-solid fa-user-plus"></i>
+                <h3>Invite</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-solid fa-users"></i>
+                <h3>Manage</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-solid fa-square-poll-vertical"></i>
+                <h3>Polling</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-solid fa-share-from-square green"></i>
+                <h3>Share Screen</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-regular fa-comment"></i>
+                <h3>Chat</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-solid fa-record-vinyl"></i>
+                <h3>Record</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-solid fa-table-cells-large"></i>
+                <h3>Hangout</h3>
+            </div>
+            <div class="tool-box">
+                <i class="fa-solid fa-ellipsis"></i>
+                <h3>More</h3>
+            </div>
+        </div>
         <div class="end">End Meeting</div>
     </footer>
 </body>

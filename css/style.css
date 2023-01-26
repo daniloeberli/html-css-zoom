@@ -21,6 +21,10 @@ img{
     font-size: small;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*
 Header
 */
@@ -101,8 +105,15 @@ footer > .voice-video{
     padding: 5px;
 }
 
+footer .voice-video h3{
+    padding-left: 12px;
+}
+
 footer > .tool{
     flex-grow: 60%;
+    display: flex;
+    align-items: center;
+    
 }
 
 footer i{
@@ -113,10 +124,21 @@ footer .voice-video i{
     margin-left: 25px;
 }
 
+.tool-box{
+    display: inline-block;
+    padding: 3px;
+}
+
+.green{
+    color: green;
+}
+
 .end{
     color: red;
     background-color: #4a4a4a;
-    text-align: center;
     width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
