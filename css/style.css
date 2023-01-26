@@ -13,7 +13,9 @@ Reset
 Common
 */
 
-
+img{
+    display: block;
+}
 
 /*
 Header
@@ -61,6 +63,16 @@ main{
     width: 250px;
     background-color: white;
     height: 100px;
+    position: relative;
+}
+
+.user{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    background-color: #66707c;
+    padding: 3px;
 }
 
 .foto{
